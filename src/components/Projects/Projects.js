@@ -56,7 +56,7 @@ function Projects() {
                 tool=" HTML, CSS, JavaScript, React, Redux, React-redux, JSON SERVER, ChakraUI, React-Bootstrap "
                 description="This website is a clone of olx.in, OLX is an online marketplace to buy and sell products locally. A person can buy and sell products and any user comes to my clone website then he can log in by his email or mobile number and after logging in he can sell a product and he also gets facility that he can see the products posted by others."
                 link="https://github.com/shivraj32644/Olx-Clone"
-                demoLink="https://olx-clone-by-team-olx.netlify.app/"
+                demoLink="https://olx-cloneone.netlify.app/"
               />
             </Col>
 
