@@ -8,6 +8,7 @@ import project1 from "../../Assets/Projects/project1.png";
 import project2 from "../../Assets/Projects/project2.png";
 import project3 from "../../Assets/Projects/project3.png";
 import project4 from "../../Assets/Projects/project4.png";
+import project5 from "../../Assets/Projects/project5.png";
 
 function Projects() {
   return (
@@ -21,7 +22,20 @@ function Projects() {
           <p style={{ color: "white" }}>
             Here are a few projects I've worked on recently.
           </p>
+
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+            <Col md={6} className="project-card first-blog">
+              <ProjectCard
+                imgPath={project5}
+                isBlog={false}
+                title="Boat lifestyle "
+                tool=" React JS, Mongo DB, Express JS, Node JS, HTML, Styled-Components, Axios"
+                description="This website is a clone of boat-lifestyle. This is an individual project. BoAt-lifestyle is an Indian e-commerce company. The sole aim of boAt company is to provide affordable, durable, and more importantly, 'fashionable' audio products and accessories to millennials. Here users can make their accont. The user can log in by email and password and after that, he can purchase our products. User can filter product list according to several parameters."
+                link="https://github.com/SurajYadav22/boat-lifestyle-clone"
+                demoLink="https://boatlifestyle-clone.netlify.app/"
+              />
+            </Col>
+
             <Col md={6} className="project-card first-blog">
               <ProjectCard
                 imgPath={project4}
